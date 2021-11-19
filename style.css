@@ -1,0 +1,72 @@
+/* Mobile */
+
+header {
+    background-color: darkblue;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 52px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+header nav {
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    align-items: center;
+}
+
+header nav ul li {
+    font-family: Montserrat;
+    list-style: none;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 25px 0 0;
+}
+
+header nav ul li a:hover {
+    color: tomato;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+
+/* Desktop */
+@media all and (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    header h1 {
+        margin: 14px 0;
+        padding-top: 0;
+        font-size: 48px;
+    }
+
+    header nav {
+        margin-top: 8px;
+    }
+
+    header nav ul li a:hover {
+        color: yellowgreen;
+    }
+
+}
